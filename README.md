@@ -1,6 +1,6 @@
 # The Pokémon API
 
-![pokemon](https://github.com/llcoollasa/pokemonapi/blob/master/public/pokeapi_256.png)
+![pokemon](https://github.com/llcoollasa/pokemonapi/blob/main/public/pokeapi_256.png)
  
 
 ## Prerequisites
