@@ -1,0 +1,25 @@
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.child-content {
+  padding: 25px 0;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+a {
+  border: 2px solid #3761a8;
+  border-radius: 4px;
+  background-color: #f9c91ab8;
+  padding: 5px 20px;
+}
+
+a:hover {
+  background-color: #3761a8;
+  color: #fff;
+}

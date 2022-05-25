@@ -1,0 +1,30 @@
+.pagination {
+  padding: 20px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.pagination button {
+  width: 40px;
+  margin: 8px;
+  border: 3px solid #3761a8;
+  border-radius: 20px;
+  height: 40px;
+  text-align: center;
+  background-color: #f9c91ab8;
+}
+
+.pagination button:hover {
+  background-color: #3761a8;
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {  
+    .pagination button {
+      height: 60px;
+      width: 60px;
+      border-radius: 30px;
+      font-size: 20px;
+    }
+}
