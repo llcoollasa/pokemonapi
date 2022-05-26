@@ -32,6 +32,7 @@ export const SearchPokemon: FC<SeachInput> = ({ getDataCallback }) => {
         <input
           type="text"
           data-testid="searchText"
+          placeholder="Enter full pokemon name"
           onInput={(evt) => {
             const target = evt.target as HTMLTextAreaElement;
             setSearchText(target.value);
@@ -47,7 +48,7 @@ export const SearchPokemon: FC<SeachInput> = ({ getDataCallback }) => {
           }}
           value="Search"
         />
-      </div>
+      </div> 
     </div>
   );
 };

@@ -1,0 +1,1571 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should renders pokemon list page 1`] = `
+<div>
+  <div>
+    <img
+      alt="The Pokémon API"
+      src="pokeapi_256.png"
+    />
+    <h2>
+      The Pokémon API
+    </h2>
+    <div
+      class="search"
+    >
+      <div>
+        <input
+          data-testid="searchText"
+          placeholder="Enter full pokemon name"
+          type="text"
+        />
+      </div>
+      <div>
+        <input
+          data-testid="search"
+          type="submit"
+          value="Search"
+        />
+      </div>
+    </div>
+    <div
+      class="poke-list"
+    >
+      <a
+        class="pokemon-link poke-card"
+        href="/1"
+      >
+        <div>
+          <div>
+            BULBASAUR
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/2"
+      >
+        <div>
+          <div>
+            IVYSAUR
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/3"
+      >
+        <div>
+          <div>
+            VENUSAUR
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/4"
+      >
+        <div>
+          <div>
+            CHARMANDER
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/5"
+      >
+        <div>
+          <div>
+            CHARMELEON
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/6"
+      >
+        <div>
+          <div>
+            CHARIZARD
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/7"
+      >
+        <div>
+          <div>
+            SQUIRTLE
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/8"
+      >
+        <div>
+          <div>
+            WARTORTLE
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/9"
+      >
+        <div>
+          <div>
+            BLASTOISE
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/10"
+      >
+        <div>
+          <div>
+            CATERPIE
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/11"
+      >
+        <div>
+          <div>
+            METAPOD
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/12"
+      >
+        <div>
+          <div>
+            BUTTERFREE
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/13"
+      >
+        <div>
+          <div>
+            WEEDLE
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/14"
+      >
+        <div>
+          <div>
+            KAKUNA
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/15"
+      >
+        <div>
+          <div>
+            BEEDRILL
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/16"
+      >
+        <div>
+          <div>
+            PIDGEY
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/17"
+      >
+        <div>
+          <div>
+            PIDGEOTTO
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/18"
+      >
+        <div>
+          <div>
+            PIDGEOT
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/19"
+      >
+        <div>
+          <div>
+            RATTATA
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/20"
+      >
+        <div>
+          <div>
+            RATICATE
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/21"
+      >
+        <div>
+          <div>
+            SPEAROW
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/22"
+      >
+        <div>
+          <div>
+            FEAROW
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/23"
+      >
+        <div>
+          <div>
+            EKANS
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/24"
+      >
+        <div>
+          <div>
+            ARBOK
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/25"
+      >
+        <div>
+          <div>
+            PIKACHU
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/26"
+      >
+        <div>
+          <div>
+            RAICHU
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/27"
+      >
+        <div>
+          <div>
+            SANDSHREW
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/28"
+      >
+        <div>
+          <div>
+            SANDSLASH
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/29"
+      >
+        <div>
+          <div>
+            NIDORAN-F
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/30"
+      >
+        <div>
+          <div>
+            NIDORINA
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/31"
+      >
+        <div>
+          <div>
+            NIDOQUEEN
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/32"
+      >
+        <div>
+          <div>
+            NIDORAN-M
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/33"
+      >
+        <div>
+          <div>
+            NIDORINO
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/34"
+      >
+        <div>
+          <div>
+            NIDOKING
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/35"
+      >
+        <div>
+          <div>
+            CLEFAIRY
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/36"
+      >
+        <div>
+          <div>
+            CLEFABLE
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/37"
+      >
+        <div>
+          <div>
+            VULPIX
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/38"
+      >
+        <div>
+          <div>
+            NINETALES
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/39"
+      >
+        <div>
+          <div>
+            JIGGLYPUFF
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/40"
+      >
+        <div>
+          <div>
+            WIGGLYTUFF
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/41"
+      >
+        <div>
+          <div>
+            ZUBAT
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/42"
+      >
+        <div>
+          <div>
+            GOLBAT
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/43"
+      >
+        <div>
+          <div>
+            ODDISH
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/44"
+      >
+        <div>
+          <div>
+            GLOOM
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/45"
+      >
+        <div>
+          <div>
+            VILEPLUME
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/46"
+      >
+        <div>
+          <div>
+            PARAS
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/47"
+      >
+        <div>
+          <div>
+            PARASECT
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/48"
+      >
+        <div>
+          <div>
+            VENONAT
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/49"
+      >
+        <div>
+          <div>
+            VENOMOTH
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/50"
+      >
+        <div>
+          <div>
+            DIGLETT
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/51"
+      >
+        <div>
+          <div>
+            DUGTRIO
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/52"
+      >
+        <div>
+          <div>
+            MEOWTH
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/53"
+      >
+        <div>
+          <div>
+            PERSIAN
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/54"
+      >
+        <div>
+          <div>
+            PSYDUCK
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/55"
+      >
+        <div>
+          <div>
+            GOLDUCK
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/56"
+      >
+        <div>
+          <div>
+            MANKEY
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/57"
+      >
+        <div>
+          <div>
+            PRIMEAPE
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/58"
+      >
+        <div>
+          <div>
+            GROWLITHE
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/59"
+      >
+        <div>
+          <div>
+            ARCANINE
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/60"
+      >
+        <div>
+          <div>
+            POLIWAG
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/61"
+      >
+        <div>
+          <div>
+            POLIWHIRL
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/62"
+      >
+        <div>
+          <div>
+            POLIWRATH
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/63"
+      >
+        <div>
+          <div>
+            ABRA
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/64"
+      >
+        <div>
+          <div>
+            KADABRA
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/65"
+      >
+        <div>
+          <div>
+            ALAKAZAM
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/66"
+      >
+        <div>
+          <div>
+            MACHOP
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/67"
+      >
+        <div>
+          <div>
+            MACHOKE
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/68"
+      >
+        <div>
+          <div>
+            MACHAMP
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/69"
+      >
+        <div>
+          <div>
+            BELLSPROUT
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/70"
+      >
+        <div>
+          <div>
+            WEEPINBELL
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/71"
+      >
+        <div>
+          <div>
+            VICTREEBEL
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/72"
+      >
+        <div>
+          <div>
+            TENTACOOL
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/73"
+      >
+        <div>
+          <div>
+            TENTACRUEL
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/74"
+      >
+        <div>
+          <div>
+            GEODUDE
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/75"
+      >
+        <div>
+          <div>
+            GRAVELER
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/76"
+      >
+        <div>
+          <div>
+            GOLEM
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/77"
+      >
+        <div>
+          <div>
+            PONYTA
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/78"
+      >
+        <div>
+          <div>
+            RAPIDASH
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/79"
+      >
+        <div>
+          <div>
+            SLOWPOKE
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/80"
+      >
+        <div>
+          <div>
+            SLOWBRO
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/81"
+      >
+        <div>
+          <div>
+            MAGNEMITE
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/82"
+      >
+        <div>
+          <div>
+            MAGNETON
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/83"
+      >
+        <div>
+          <div>
+            FARFETCHD
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/84"
+      >
+        <div>
+          <div>
+            DODUO
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/85"
+      >
+        <div>
+          <div>
+            DODRIO
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/86"
+      >
+        <div>
+          <div>
+            SEEL
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/87"
+      >
+        <div>
+          <div>
+            DEWGONG
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/88"
+      >
+        <div>
+          <div>
+            GRIMER
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/89"
+      >
+        <div>
+          <div>
+            MUK
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/90"
+      >
+        <div>
+          <div>
+            SHELLDER
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/91"
+      >
+        <div>
+          <div>
+            CLOYSTER
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/92"
+      >
+        <div>
+          <div>
+            GASTLY
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/93"
+      >
+        <div>
+          <div>
+            HAUNTER
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/94"
+      >
+        <div>
+          <div>
+            GENGAR
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/95"
+      >
+        <div>
+          <div>
+            ONIX
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/96"
+      >
+        <div>
+          <div>
+            DROWZEE
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/97"
+      >
+        <div>
+          <div>
+            HYPNO
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/98"
+      >
+        <div>
+          <div>
+            KRABBY
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/99"
+      >
+        <div>
+          <div>
+            KINGLER
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+      <a
+        class="pokemon-link poke-card"
+        href="/100"
+      >
+        <div>
+          <div>
+            VOLTORB
+          </div>
+          <div
+            class="more-details"
+          >
+            More Details
+          </div>
+        </div>
+      </a>
+    </div>
+    <div
+      class="pagination"
+    >
+      <button>
+        1
+      </button>
+      <button>
+        2
+      </button>
+      <button>
+        3
+      </button>
+      <button>
+        4
+      </button>
+      <button>
+        5
+      </button>
+      <button>
+        6
+      </button>
+      <button>
+        7
+      </button>
+      <button>
+        8
+      </button>
+      <button>
+        9
+      </button>
+      <button>
+        10
+      </button>
+    </div>
+  </div>
+</div>
+`;

@@ -2,7 +2,7 @@ import React, { FC, useEffect, useState, useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 import { LoadingContext } from "../../context/loadingContext";
-import { Pagination } from "../../components/pagination"; 
+import { Pagination } from "../../components/pagination";
 import { PokeResult, getPokemonByParams } from "./index";
 import { Error } from "../../components/Error";
 import { PAGINATION_LIMIT_RECORDS_PER_PAGE, POKEMON_LOGO } from "../../configs";
@@ -16,6 +16,7 @@ export const List: FC = () => {
   const [pokeList, setPokeList] = useState<PokeResult>();
   const [currentPage, setCurrentPage] = useState(1);
   const [error, setError] = useState(false);
+  const [detailPage, setDetailPage] = useState("");
 
   useEffect(() => {
     isLoading(true);
@@ -30,6 +31,10 @@ export const List: FC = () => {
         setError(true);
       });
   }, []);
+
+  useEffect(() => {
+    navigate(`/${detailPage}`);
+  }, [detailPage]);
 
   const getPokeDexByIdCallback = async (
     searchParams: string,
@@ -48,7 +53,8 @@ export const List: FC = () => {
   };
 
   const searchByName = (id: string) => {
-    if (id) navigate(`/${id}`);
+    // if (id) navigate(`/${id}`);
+    if (id) setDetailPage(id);
   };
 
   if (error) {

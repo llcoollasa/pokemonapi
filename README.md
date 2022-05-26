@@ -27,9 +27,10 @@ Run the tests
  ## Improvements/Time constraints
 
  - Detail Page UI/UX can be improve. Since there are more details available in current API call pokemon detail page can be organized with using pokemon other APIs such as ability, characteristic, gender etc. 
- - Pagination can be improved with adding first/last/prev/next links. Also as mentioned application can have endless scrolling.
- - Pagination uses state to display the result at the moment. In future it can be improved to go to specific page from the URL
+ - Pagination can be improved with adding first/last/prev/next/go-to-lage links. Also as mentioned application can have endless scrolling.
+ - Pagination uses state to display the result at the moment. In future it can be improved to go to specific page from the URL address
  - Application wise general error handling can be use. Error component can be used in poperly through the app.
  - Intitial page could be combined with pokemon images and basic info
  - Enable query caching for app performance. Such as https://react-query.tanstack.com/guides/caching
+ - Pokemon Search needs improvements such as error handling, maybe real time autocomplete.
  

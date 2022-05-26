@@ -29,17 +29,21 @@ export const Pagination: FC<PaginationInput> = ({
   const postAdd = midPoint;
 
   let startAt = currentPage - preDeduct;
-  let endAt = currentPage + postAdd;
+  let endAt = totalPages <= postAdd ? totalPages : currentPage + postAdd;
 
   startAt = startAt < 1 ? 1 : startAt;
-
   startAt =
     endAt <= totalPages
       ? startAt
       : totalPages - (PAGINATION_TOTAL_LINKS_TO_DISPLAY - 1);
 
+  const totalPagesToDisplay =
+    totalPages <= PAGINATION_TOTAL_LINKS_TO_DISPLAY
+      ? totalPages
+      : PAGINATION_TOTAL_LINKS_TO_DISPLAY;
+      
   const displayNumbers = Array.from(
-    { length: PAGINATION_TOTAL_LINKS_TO_DISPLAY },
+    { length: totalPagesToDisplay },
     (_, index) => index + startAt
   );
 
@@ -52,7 +56,10 @@ export const Pagination: FC<PaginationInput> = ({
         offset = pos * PAGINATION_LIMIT_RECORDS_PER_PAGE;
 
         return (
-          <button onClick={() => clickOnPageCallback(searchParams, pos)}>
+          <button
+            onClick={() => clickOnPageCallback(searchParams, pos)}
+            key={pos}
+          >
             {pos}
           </button>
         );
